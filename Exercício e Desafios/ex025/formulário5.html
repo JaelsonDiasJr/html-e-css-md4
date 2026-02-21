@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h2>checkbox e radio</h2>
+    
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Cor (radio)</legend>
+            <input type="radio" name="cor" id="irosa"><label for="irosa">Rosa</label>
+            <input type="radio" name="cor" id="icinza"><label for="icinza">Cinza</label>
+        </fieldset>
+
+         <fieldset>
+            <legend>Marcar (checkbox)</legend>
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tenis</label><br>
+            <input type="checkbox" name="lacoste" id="ilacosta"><label for="ilacoste">Lacoste</label><br>
+            <input type="checkbox" name="nike" id="inike"><label for="inike">Nike</label>
+         </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
