@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* CSS das Telas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+menu{
+    padding: 0px 0px 0px 25px;
+}
+
+header menu {
+    background-color: antiquewhite;
+}
+
+header h2 {
+    margin: 0px;
+    text-align: center;
+    background-color:rgb(240, 199, 146);
+}
+
+main {
+    padding-top:15px;
+    max-width: 400px;
+    margin: auto;
+    text-align: justify;
+}
+
+main article h2 {
+    text-align: center;
+    padding-bottom: 10px ;
+}
+
