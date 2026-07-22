@@ -3,12 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/todos.css" media="all">
-    <link rel="stylesheet" href="estilo/vertical.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilo/horizontal.css" media=" screen and (orientation: landscape)">
     <title>Media Query</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        body{
+            background-color: #233EFF;
+            color: aliceblue;
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        @media screen and (orientation: portrait) {
+            body{
+                background-image: url(../imagens/cev-portrait.jpg);
+                background-position: center center ;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            body{
+                background-image: url(../imagens/cev-landscape.jpg);
+                background-position: center bottom;
+            }
+        }
+
+    </style>
 </head>
 <body>
     <h1>Mude de Orientação </h1>
 </body>
-</html> 
+</html>   
