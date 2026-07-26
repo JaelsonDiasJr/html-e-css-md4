@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Configurações Gerais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:lightgray;
+}
+
+header{
+    background-color: lightgreen;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu{
+    background-color: rgb(69, 212, 69);
+    padding: 50px;
+}
+
+menu li {
+    text-align: center;
+    text-decoration-style: none;
+}
