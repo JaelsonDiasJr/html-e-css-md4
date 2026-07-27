@@ -17,14 +17,67 @@ header{
 
 header h1 {
     text-align: center;
+    padding: 8px;
 }
 
 menu{
-    background-color: rgb(69, 212, 69);
-    padding: 50px;
+    display: none;
+    background-color: #4fd44f;
 }
 
-menu li {
-    text-align: center;
-    text-decoration-style: none;
+menu ul {
+    list-style-type: none;
 }
+
+menu a {
+    display: block  ;
+    padding: 8px;
+    text-align: center ;
+    text-decoration: none;
+    color: white;
+    border-top: 2px solid white;
+}
+
+menu a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+main {
+
+    width: 85vw;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 20px 20px 0px 20px
+}
+
+article h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+article p{ 
+    padding-bottom: 10px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#navegar{
+    text-align: center;
+    color: white;
+    background-color: #46b346;
+    display: block;
+}
+#navegar:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
